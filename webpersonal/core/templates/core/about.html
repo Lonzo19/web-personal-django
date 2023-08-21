@@ -1,0 +1,38 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Acerca de{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/about.jpg' %}{% endblock %}
+
+{% block headers %}
+    <h1>Acerca de</h1>
+    <span class="subheading">Biografía</span>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">   
+        <div class="col-lg-3 col-md-4 offset-lg-1">
+            <img class="img-fluid avatar" src="{% static 'core/img/avatar.png' %}" alt="">
+        </div>
+        <div class="col-lg-7 col-md-8">
+            <h2 class="section-heading">Vannzo's Vinos</h2>   
+            <p>Vannzo's Vinos es una compañía apasionada por la producción y distribución de vinos de alta calidad, que ha estado cautivando a los amantes del vino desde su fundación. Nuestra dedicación a la excelencia en la vinificación y el compromiso con la satisfacción del cliente nos han convertido en un referente en la industria vinícola.
+                
+                <p><b>Historia:</b></p>
+                <p>Fundada en 2022 Vannzo's Vinos surgió como un sueño compartido entre un grupo de enólogos y amantes del vino. Guiados por la visión de crear vinos que reflejen la pasión, la tradición y la innovación, nuestros fundadores se propusieron revolucionar el mundo del vino. A lo largo de los años, hemos crecido y evolucionado, manteniendo siempre la esencia de nuestro compromiso inicial.</p>
+                
+                <p><b>Nuestros Vinos:</b></p>
+                <p>Ofrecemos una amplia gama de vinos que abarcan desde tintos robustos y elegantes hasta blancos frescos y afrutados. Cada botella es una expresión única de la tierra de la que proviene, capturando la esencia de la región y la pasión de nuestros enólogos. Nuestra colección incluye vinos de reserva, ediciones limitadas y selecciones especiales que son el resultado de años de experiencia y dedicación.</p>
+                
+                <p><b>Compromiso Ambiental:</b></p>
+                <p>En Vannzo's Vino, también estamos comprometidos con la sostenibilidad y la responsabilidad ambiental. Implementamos prácticas respetuosas con el medio ambiente en nuestra producción y trabajamos para reducir nuestra huella de carbono en todo el ciclo de vida de nuestros productos.</p>
+                
+                <p><b>Únete a Nosotros:</b></p>
+                <p>Invitamos a los amantes del vino a unirse a nosotros en esta emocionante travesía. Explora nuestros vinos, sumérgete en la riqueza de nuestros sabores y descubre la pasión que impulsa a Vannzo's Vino a ser una de las compañías vinícolas más emocionantes y respetadas del mundo.</p>
+                <br>
+                <p>En Vannzo's Vino, celebramos la vida a través de cada sorbo. ¡Salud!</p>
+            </div>
+        </div>  
+    </div>
+{% endblock %}
